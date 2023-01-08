@@ -1,0 +1,65 @@
+.food-card-back {
+    background-image: url(/Users/nazarkademon/Code/React/food-order-app/src/Components/UpperMain/abhishek-sanwa-limbu-LR559Dcst70-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  clip-path: polygon(0 0, 100% 0, 100% 72%, 0 85%);
+}
+
+.food-card-holder {
+    position: relative;
+}
+
+
+.food-card {
+    background-color: rgb(85, 85, 85);
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50vmax;
+    border-radius: 20px;
+    padding: 10px;
+    color:  white;
+    box-shadow: 0px 10px 40px 12px rgba(0,0,0,0.75);
+}
+
+.food-card h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 10px;
+    font-weight: 700;
+}
+
+.food-card p {
+    font-size: 1.2rem;
+    padding: 20px 10px;
+    text-align: center;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 786px) {
+    .food-card h2 {
+        font-size: 1.7rem;
+    }
+
+    .food-card p {
+        font-size: 1rem;
+    }   
+}
+
+@media screen and (max-width: 500px) {
+    .food-card h2 {
+        font-size: 1.4rem;
+    }
+
+    .food-card p {
+        font-size: 0.8rem;
+    }   
+
+    .food-card {
+        width: 35vmax;
+    }
+}
+
+

@@ -1,0 +1,13 @@
+.meals-card {
+    width: fit-content;
+    height: fit-content;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin: 70px auto 30px auto;
+    padding: 1px 1px;
+
+}
+
+@media screen and (max-width: 600px) {
+}

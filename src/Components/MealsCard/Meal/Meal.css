@@ -1,0 +1,61 @@
+.meals-holder {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80vw;
+  margin-bottom: 30px;
+  margin: 40px 20px;
+}
+
+.meals-holder::after {
+  content: "";
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 90%;
+  height: 2px;
+  top: 110%;
+  left: 5%;
+}
+
+.left-holder {
+  padding: 10px;
+}
+.left-holder h3,
+.left-holder p,
+.left-holder span {
+  padding: 5px;
+}
+
+.left-holder span {
+    color: rgb(229, 185, 27);
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.right-holder form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-holder form input {
+    width: 50px;
+}
+
+.right-holder form label {
+    padding: 10px;
+}
+
+.right-holder form div {
+    padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .right-holder div{
+        display: flex;
+        flex-direction: column;
+    }
+}

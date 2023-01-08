@@ -1,0 +1,82 @@
+.modal-background {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  z-index: 2;
+}
+
+.modal-window {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60vmax;
+  background-color: white;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.modal-result {
+  width: 90%;
+  background-color: #ffffff;
+  margin: 30px 10px 10px 10px;
+  border-radius: 10px;
+}
+
+.button-holder button {
+  margin: 10px;
+}
+
+.total {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.modal-button {
+  border: 1px solid rgb(140, 55, 55);
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: rgb(140, 55, 55);
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.modal-button:hover,
+.modal-button:focus {
+  border: 1px solid rgb(140, 35, 35);
+  color: rgb(140, 45, 45);
+}
+
+@media screen and (max-width: 550px) {
+    .modal-window {
+        width: 95vw;
+    }
+}
