@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/ReactMeals/static/css/main.70ec7a29.css",
-    "main.js": "/ReactMeals/static/js/main.b1597d1c.js",
+    "main.css": "/ReactMeals/static/css/main.42b5332b.css",
+    "main.js": "/ReactMeals/static/js/main.790df376.js",
     "static/media/abhishek-sanwa-limbu-LR559Dcst70-unsplash.jpg": "/ReactMeals/static/media/abhishek-sanwa-limbu-LR559Dcst70-unsplash.cb2be0f4ec2cac166d1c.jpg",
     "index.html": "/ReactMeals/index.html",
-    "main.70ec7a29.css.map": "/ReactMeals/static/css/main.70ec7a29.css.map",
-    "main.b1597d1c.js.map": "/ReactMeals/static/js/main.b1597d1c.js.map"
+    "main.42b5332b.css.map": "/ReactMeals/static/css/main.42b5332b.css.map",
+    "main.790df376.js.map": "/ReactMeals/static/js/main.790df376.js.map"
   },
   "entrypoints": [
-    "static/css/main.70ec7a29.css",
-    "static/js/main.b1597d1c.js"
+    "static/css/main.42b5332b.css",
+    "static/js/main.790df376.js"
   ]
 }
